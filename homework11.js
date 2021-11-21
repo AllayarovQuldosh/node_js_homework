@@ -63,21 +63,64 @@
 // >>>>>>>>>>>>>>>>> Function <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 // >>>>>>>>>>>>>>>>> 1- example<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+// function substrings(str1)
+// {
+// let array1 = [];
+//   for (let x = 0, y=1; x < str1.length; x++,y++) 
+//   {
+//    array1[x]=str1.substring(x, y);
+//     }
+// let combi = [];
+// let temp= "";
+// let slent = Math.pow(2, array1.length);
+
+// for (let i = 0; i < slent ; i++)
+// {
+//     temp= "";
+//     for (let j=0;j<array1.length;j++) {
+//         if ((i & Math.pow(2,j))){ 
+//             temp += array1[j];
+//         }
+//     }
+//     if (temp !== "")
+//     {
+//         combi.push(temp);
+//     }
+// }
+//   console.log(combi.join("\n"));
+// }
 
 
+// function all(str) {
+//     let result = [];
+//     for (const e of str) {
+//     let temp = [e];
+//     for (const i in result) temp.push("" + result[i] + e);
+//     result = result.concat(temp);
+//     }
+//     return result;
+//     }
+//     console.log(all("123")); // ["1", "2", "12", "3", "13", "23", "123"]
 
 
 // >>>>>>>>>>>>>>>>>> 2- example <<<<<<<<<<<<<<<<<<<<<<<<<<<
- 
 
-const str = 'weqrwiirabs';
-function sorting(str){
-    for(let i=0;i<str.length;i++){
-        sort(i);
-        console.log(i);
-    }
-}
-sorting(str)
+// function alfabetSort(str){
+//     return str.split('').sort().join('');
+// };
+// console.log(alfabetSort('webmaster'));
+
+// >>>>>>>>>>>>>>>>>> 3- example <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// const str = 'assalomu alaykum xonimlar ile janoblar';
+// const str2 = str.charAt(0).toUpperCase() + str.slice(1);
+// console.log(str2);
+
+
+// >>>>>>>>>>>>>>>>>>> 4- example <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
 
 
  
