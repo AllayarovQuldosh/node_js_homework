@@ -1,4 +1,4 @@
-// >>>>>>>>>>>>44 -misol<<<<<<<<<<<<<<
+// >>>>>>>>>>>>002 -misol<<<<<<<<<<<<<<
 
 // function lessby20_others(x, y, z) 
 // {
@@ -14,7 +14,7 @@
 // false
 // true
 
-// >>>>>>>>>>>>>264-example<<<<<<<<<<<<<<<
+// >>>>>>>>>>>>>001-example<<<<<<<<<<<<<<<
 
 // function titleCase(str) {
 //     var splitStr = str.toLowerCase().split(' ');
@@ -79,7 +79,11 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>> 5- example <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-myColor = ["Red", "Green", "White", "Black"];
-console.log(myColor.toString());
-console.log(myColor.join());
-console.log(myColor.join('+'));
+// myColor = ["Red", "Green", "White", "Black"];
+// console.log(myColor.toString());
+// console.log(myColor.join());
+// console.log(myColor.join('+'));
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>> 6-example<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
